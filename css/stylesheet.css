@@ -1,4 +1,31 @@
-h1 {
-    color: blue;
-    text-align: center;
+<head>
+ <style> 
+div {
+  width: 35px;
+  height: 25px;
+  background:blue ;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  
 }
+
+
+
+@keyframes example {
+  from {background-color: grey;}
+  to {background-color: yellow;}
+  
+  
+}
+</style>
+</head>
+<body>
+<a style="font-family:ink free">Moin</a>
+
+
+<div style="font-family:ink free">Moin</div>
+<a href="https://youtube.com/" style="background:red;color:blue;font-family:ink free"> test </a>
+
+
+</body>

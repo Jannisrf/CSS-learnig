@@ -1,0 +1,18 @@
+div {
+  width: 35px;
+  height: 25px;
+  background:blue ;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  
+}
+
+
+
+@keyframes example {
+  from {background-color: grey;}
+  to {background-color: yellow;}
+  
+  
+}

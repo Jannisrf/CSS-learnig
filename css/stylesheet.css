@@ -1,18 +1,31 @@
 div {
-  width: 35px;
-  height: 25px;
-  background:blue ;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  
+    width: 35px;
+    height: 25px;
+    background: blue;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+#test_tag {
+    background: red;
+    color: blue;
+    font-family: ink free
+}
+
+#animation {
+    font-family: ink free, serif
 }
 
 
-
 @keyframes example {
-  from {background-color: grey;}
-  to {background-color: yellow;}
-  
-  
+    from {
+        background-color: grey;
+    }
+    to {
+        background-color: yellow;
+    }
+
+
 }
